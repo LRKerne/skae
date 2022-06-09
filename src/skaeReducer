@@ -1,0 +1,10 @@
+interface ExampleState{
+  name: string
+}
+
+const initialState={
+  name:''
+}
+// export const exampleReducer = (state:ExampleState=initialState, action:Action) =>{
+
+// }
