@@ -1,10 +1,11 @@
 import React from 'react';
-import { Router } from './router';
+import Form from './components/Form';
+import "./App.css";
 
 const App = () => {
   return (
-    <div>
-      <Router />
+    <div className='App'>
+      <Form />
     </div>
   );
 }
