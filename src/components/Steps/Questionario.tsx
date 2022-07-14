@@ -14,7 +14,7 @@ export interface Question {
 export interface QuestionObject {
   id: string | undefined;
   categoryId: string | undefined;
-  name: string;
+  title: string;
   questions: Question[];
   resposta: number;
 }
@@ -37,37 +37,37 @@ export const Questionario = ({
   useEffect(() => {
     async function getQuestionsCat1() {
       const { data } = await api.get<QuestionObject[]>(
-        `question?category.name=Category 1`
+        `question?categoriesId=a8bc9682-61e3-4c5f-8977-462120750329`
       );
       setQuestionsCat1(data);
     }
     async function getQuestionsCat2() {
       const { data } = await api.get<QuestionObject[]>(
-        `question?category.name=Category 2`
+        `question?categoriesId=a0cb70a9-03b5-44a0-9192-a8be143cae41`
       );
       setQuestionsCat2(data);
     }
     async function getQuestionsCat3() {
       const { data } = await api.get<QuestionObject[]>(
-        `question?category.name=Category 2`
+        `question?categoriesId=c58defa7-f791-46db-860b-a0ab7f14aee5`
       );
       setQuestionsCat3(data);
     }
     async function getQuestionsCat4() {
       const { data } = await api.get<QuestionObject[]>(
-        `question?category.name=Category 2`
+        `question?categoriesId=7d5d936d-cd73-45cd-abbf-45e199ea033b`
       );
       setQuestionsCat4(data);
     }
     async function getQuestionsCat5() {
       const { data } = await api.get<QuestionObject[]>(
-        `question?category.name=Category 2`
+        `question?categoriesId=af2ea2ff-d005-436d-b7c7-bfbbde02b0ee`
       );
       setQuestionsCat5(data);
     }
     async function getQuestionsCat6() {
       const { data } = await api.get<QuestionObject[]>(
-        `question?category.name=Category 2`
+        `question?categoriesId=af2ea2ff-d005-436d-b7c7-bfbbde02b0ethd`
       );
       setQuestionsCat6(data);
     }
@@ -97,7 +97,7 @@ export const Questionario = ({
               return (
                 <div key={Math.random() + index * 2}>
                   <div id={question.categoryId}>
-                    <label htmlFor="QuestionName">{question.name}</label>
+                    <label htmlFor="QuestionName">{question.title}</label>
                     <br />
                     <input type="radio" value="1" name={question.id}></input><span>1</span>
                     <input type="radio" value="2" name={question.id}></input><span>2</span>
@@ -119,7 +119,7 @@ export const Questionario = ({
               return (
                 <div key={Math.random() + index * 2}>
                   <div id={question.categoryId}>
-                    <label htmlFor="QuestionName">{question.name}</label>
+                    <label htmlFor="QuestionName">{question.title}</label>
                     <br />
                     <input type="radio" value="1" name={question.id}></input><span>1</span>
                     <input type="radio" value="2" name={question.id}></input><span>2</span>
@@ -141,7 +141,7 @@ export const Questionario = ({
               return (
                 <div key={Math.random() + index * 2}>
                   <div id={question.categoryId}>
-                    <label htmlFor="QuestionName">{question.name}</label>
+                    <label htmlFor="QuestionName">{question.title}</label>
                     <br />
                     <input type="radio" value="1" name={question.id}></input><span>1</span>
                     <input type="radio" value="2" name={question.id}></input><span>2</span>
@@ -163,7 +163,7 @@ export const Questionario = ({
               return (
                 <div key={Math.random() + index * 2}>
                   <div id={question.categoryId}>
-                    <label htmlFor="QuestionName">{question.name}</label>
+                    <label htmlFor="QuestionName">{question.title}</label>
                     <br />
                     <input type="radio" value="1" name={question.id}></input><span>1</span>
                     <input type="radio" value="2" name={question.id}></input><span>2</span>
@@ -185,7 +185,7 @@ export const Questionario = ({
               return (
                 <div key={Math.random() + index * 2}>
                   <div id={question.categoryId}>
-                    <label htmlFor="QuestionName">{question.name}</label>
+                    <label htmlFor="QuestionName">{question.title}</label>
                     <br />
                     <input type="radio" value="1" name={question.id}></input><span>1</span>
                     <input type="radio" value="2" name={question.id}></input><span>2</span>
@@ -207,7 +207,7 @@ export const Questionario = ({
               return (
                 <div key={Math.random() + index * 2}>
                   <div id={question.categoryId}>
-                    <label htmlFor="QuestionName">{question.name}</label>
+                    <label htmlFor="QuestionName">{question.title}</label>
                     <br />
                     <input type="radio" value="1" name={question.id}></input><span>1</span>
                     <input type="radio" value="2" name={question.id}></input><span>2</span>
@@ -270,7 +270,7 @@ export const Questionario = ({
       </div>
       <div className="quiz-body">
         <div className="quiz-card">
-          <div className="header">
+          <div className="quiz-header">
             <div className="quiz-form-steps">
               <button className="quiz-form-step" style={{background: quizPage === 0 ? "linear-gradient(180deg, rgba(255, 187, 200, 0) 0%, #FFBBC8 100%)":"linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #cecfec 100%)"}}>1</button>
               <div className="arrow right"></div>

@@ -46,285 +46,926 @@
   ],
   "question": [
     {
-      "id": "44b1",
-      "name": "Question 1",
-      "description": null,
-      "createdAt": "2022-03-29T21:40:11.886Z",
-      "updatedAt": "2022-03-29T21:40:11.886Z",
-      "categoryId": "4eeaf84b-590a-4d88-8031-4aa6fdcf26ed",
-      "category": {
-        "id": "4eeaf84b-590a-4d88-8031-4aa6fdcf26ed",
-        "name": "Category 1",
-        "description": null,
-        "createdAt": "2022-03-29T21:39:51.596Z",
-        "updatedAt": "2022-03-29T21:39:51.596Z",
-        "rate": 0
+      "id": "9ac4da65-99a4-41b4-b2be-a68d00a08a5c",
+      "title": "Quando exposto a uma situação eu consigo mapear com facilidade os pontos fortes e fracos que a norteia.",
+      "categoriesId": "a8bc9682-61e3-4c5f-8977-462120750329",
+      "description": "null"
+  },
+  {
+      "id": "4f301a91-4ad5-4bce-8c09-8f7b9566f9fe",
+      "title": "Se um sistema possui alguma falha eu me sinto preparado para modificar o funcionamento.",
+      "categoriesId": "a8bc9682-61e3-4c5f-8977-462120750329",
+      "description": "null"
+  },
+  {
+      "id": "ea1cee36-f55b-4e24-9ef2-5301b65f009e",
+      "title": "Quando eu estou  com uma demanda alta e gerenciando vários projetos, utilizo do seu senso de priorização.",
+      "categoriesId": "a8bc9682-61e3-4c5f-8977-462120750329",
+      "description": "null"
+  },
+  {
+      "id": "d2b52a8a-8571-46fd-a798-e2e40ae588cd",
+      "title": "Acredito ser capaz de lidar com estressores sociais ao resolver conflitos.",
+      "categoriesId": "a8bc9682-61e3-4c5f-8977-462120750329",
+      "description": "null"
+  },
+  {
+      "id": "62725bad-b678-4097-b9d4-10363b73991f",
+      "title": "Costumo solucionar situações utilizando de conhecimento multidisciplinar.",
+      "categoriesId": "a8bc9682-61e3-4c5f-8977-462120750329",
+      "description": "null"
+  },
+  {
+      "id": "69a8b791-24eb-4aa2-aef8-83e425d21923",
+      "title": "Facilmente eu identifico um problema complexo.",
+      "categoriesId": "a8bc9682-61e3-4c5f-8977-462120750329",
+      "description": "null"
+  },
+  {
+      "id": "ccfd4a32-23fd-4d5c-aae5-63596fda59d2",
+      "title": "Eu facilmente consigo mentalizar os elementos formadores individualmente e a composição geral de um projeto.",
+      "categoriesId": "a8bc9682-61e3-4c5f-8977-462120750329",
+      "description": "null"
+  },
+  {
+      "id": "d93054a0-7fff-484c-8ad8-b9d046cd628c",
+      "title": "Me sinto confortável ao receber sugestões, ideias diferentes e opiniões contrárias as minhas.",
+      "categoriesId": "a8bc9682-61e3-4c5f-8977-462120750329",
+      "description": "null"
+  },
+  {
+    "id": "3c221bdf-7d0b-4fab-b2a9-a78e3552ebc0",
+    "title": "Sei me comunicar em diferentes contextos (pessoal, social e profissional).",
+    "categoriesId": "a0cb70a9-03b5-44a0-9192-a8be143cae41",
+    "description": "null"
+},
+{
+    "id": "2bb5d3ee-0434-48a9-9687-0abb59ee4e03",
+    "title": "Sei demonstrar que uma informação é importante para mim.",
+    "categoriesId": "a0cb70a9-03b5-44a0-9192-a8be143cae41",
+    "description": "null"
+},
+{
+    "id": "c711d1e1-a13f-467f-a49d-c3864bcb6472",
+    "title": "Me sinto compreendido ao passar alguma informação.",
+    "categoriesId": "a0cb70a9-03b5-44a0-9192-a8be143cae41",
+    "description": "null"
+},
+{
+    "id": "a77a2d1d-9e13-4fbc-83a6-3342868e9929",
+    "title": "Expresso meus direitos, opiniões, ideias, necessidades e sentimentos de forma consciente, clara, honesta e sincera, sem prejudicar os outros.",
+    "categoriesId": "a0cb70a9-03b5-44a0-9192-a8be143cae41",
+    "description": "null"
+},
+{
+    "id": "c570114d-7607-4728-a153-8c82acdafac6",
+    "title": "Me sinto confortável ao falar em público.",
+    "categoriesId": "a0cb70a9-03b5-44a0-9192-a8be143cae41",
+    "description": "null"
+},
+{
+    "id": "815ae02f-8fbc-4d84-9647-d2ac060bb551",
+    "title": "Sei me comunicar de forma escrita.",
+    "categoriesId": "a0cb70a9-03b5-44a0-9192-a8be143cae41",
+    "description": "null"
+},
+{
+    "id": "2066da09-c84a-4c00-87db-54cf66f63f21",
+    "title": "Me sinto capaz para trabalhar com diversos e diferentes meios de comunicação, aplicativos de mensagens, e-mails e mídias sociais.",
+    "categoriesId": "a0cb70a9-03b5-44a0-9192-a8be143cae41",
+    "description": "null"
+},
+{
+    "id": "73970ee1-7394-41bb-b571-0060b9462331",
+    "title": "Possuo alto nível de ortografia e conhecimento da linguagem culta.",
+    "categoriesId": "a0cb70a9-03b5-44a0-9192-a8be143cae41",
+    "description": "null"
+},
+{
+    "id": "caeae62d-7d4e-4581-a2e2-8280d8d709c2",
+    "title": "Sou capaz de, ao escutar um colega, transmitir exatamente o que ele quis expressar.",
+    "categoriesId": "a0cb70a9-03b5-44a0-9192-a8be143cae41",
+    "description": "null"
+},
+{
+    "id": "3ee86e09-195a-46bc-9d99-6b33dfe666bb",
+    "title": "Possuo facilidade para compreender as intenções de alguém que está falando comigo.",
+    "categoriesId": "a0cb70a9-03b5-44a0-9192-a8be143cae41",
+    "description": "null"
+},
+{
+    "id": "c3d61181-17e7-4155-919a-4ec659f1d378",
+    "title": "Eu espero o interlocutor terminar de falar para posicionar minha fala.",
+    "categoriesId": "a0cb70a9-03b5-44a0-9192-a8be143cae41",
+    "description": "null"
+},
+{
+    "id": "d1187610-76e3-482c-bc01-145ccd95f76d",
+    "title": "Ao ler um contrato de trabalho ou outros documentos, eu entendo as cláusulas jurídicas.",
+    "categoriesId": "a0cb70a9-03b5-44a0-9192-a8be143cae41",
+    "description": "null"
+},
+{
+    "id": "8c4a10db-d32e-475f-9f9a-19014a86eaa6",
+    "title": "Possuo capacidade de interpretar textos, utilizando os dados neles contidos.",
+    "categoriesId": "a0cb70a9-03b5-44a0-9192-a8be143cae41",
+    "description": "null"
+},
+{
+    "id": "3e1c1cd6-d37b-4c08-8bbd-f61ea305309c",
+    "title": "Possuo capacidade em ler, falar e escrever um outro idioma além do da minha origem.",
+    "categoriesId": "a0cb70a9-03b5-44a0-9192-a8be143cae41",
+    "description": "null"
+},
+{
+  "id": "e643ba16-7e30-40b5-b512-4359a6e2e340",
+  "title": "Em meio a cenários de incerteza, eu me sinto confortável para tomar decisões.",
+  "categoriesId": "c58defa7-f791-46db-860b-a0ab7f14aee5",
+  "description": "null"
+},
+{
+  "id": "1e9d655a-597a-4839-bb00-699db8b04e64",
+  "title": "Em um grupo de colegas, minhas opiniões direcionam o rumo da conversa.",
+  "categoriesId": "c58defa7-f791-46db-860b-a0ab7f14aee5",
+  "description": "null"
+},
+{
+  "id": "df1a6d98-3424-4540-87fe-9cbaec735b10",
+  "title": "Consigo convencer as pessoas a me apoiarem em uma opinião.",
+  "categoriesId": "c58defa7-f791-46db-860b-a0ab7f14aee5",
+  "description": "null"
+},
+{
+  "id": "58c6fac3-6844-428f-8740-b7f14c367392",
+  "title": "Eu estimulo meus colegas a serem autônomos e pró-ativos.",
+  "categoriesId": "c58defa7-f791-46db-860b-a0ab7f14aee5",
+  "description": "null"
+},
+{
+  "id": "fe711c62-100c-4d6c-9de0-c390ba6b4b7f",
+  "title": "Eu costumo reconhecer as competências de meus colegas e informá-los.",
+  "categoriesId": "c58defa7-f791-46db-860b-a0ab7f14aee5",
+  "description": "null"
+},
+{
+  "id": "9e9a42d2-22c4-482e-a15c-5aa2e84f5e07",
+  "title": "Eu me entusiasmo a contribuir com objetivos comuns.",
+  "categoriesId": "c58defa7-f791-46db-860b-a0ab7f14aee5",
+  "description": "null"
+},
+{
+  "id": "c5f2539f-dccd-472d-b392-aff6589eaad4",
+  "title": "Faço parcerias profissionais facilmente.",
+  "categoriesId": "c58defa7-f791-46db-860b-a0ab7f14aee5",
+  "description": "null"
+},
+{
+  "id": "05c67964-1f8f-4fdc-83e4-82894fe34fdc",
+  "title": "Eu invisto em gerar conexões adequadas com clientes e colegas.",
+  "categoriesId": "c58defa7-f791-46db-860b-a0ab7f14aee5",
+  "description": "null"
+},
+{
+  "id": "2d1a941a-88d0-4b35-9c13-206ebbbc2d50",
+  "title": "Aceito coerentemente as obrigações compartilhadas com outras pessoas.",
+  "categoriesId": "c58defa7-f791-46db-860b-a0ab7f14aee5",
+  "description": "null"
+},
+{
+  "id": "c83ce361-3cf4-4e85-97f5-2ad8360ff57b",
+  "title": "Me sinto confortável ao trabalhar com equipes de outro setores.",
+  "categoriesId": "c58defa7-f791-46db-860b-a0ab7f14aee5",
+  "description": "null"
+},
+{
+  "id": "b358b946-4562-4790-a338-799c61e0b70b",
+  "title": "Aplico com facilidade minhas competências ao ser exposto a novos contextos.",
+  "categoriesId": "c58defa7-f791-46db-860b-a0ab7f14aee5",
+  "description": "null"
+},
+{
+  "id": "67fe2bca-9f14-4f50-adbb-dc22aa4cd94a",
+  "title": "Prefiro trabalhar em equipe em relação a trabalhar individualmente.",
+  "categoriesId": "c58defa7-f791-46db-860b-a0ab7f14aee5",
+  "description": "null"
+},
+{
+  "id": "4a824d16-d471-4999-b280-fa10d213e703",
+  "title": "Possuo facilidade em trabalhar com grupos de pessoas que diferem da minha cultura, raça, idade, gênero, religião, estilo de vida e pontos de vista.",
+  "categoriesId": "c58defa7-f791-46db-860b-a0ab7f14aee5",
+  "description": "null"
+},
+{
+  "id": "493dfd0b-b41d-47e8-966d-c9899a355525",
+  "title": "Possuo facilidade em demonstrar empatia por um colega de trabalho.",
+  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+  "description": "null"
+},
+{
+  "id": "8f085fb9-9ca3-4bac-b693-24f8aec517ed",
+  "title": "Consigo manter as aparências profissionais em vez de priorizar minhas crenças opniões e valores.",
+  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+  "description": "null"
+},
+{
+  "id": "42af0c8d-7ff1-4eed-b3c4-6e7ef8935e68",
+  "title": "Quando há uma mudança de ambiente, isso me afeta.",
+  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+  "description": "null"
+},
+{
+  "id": "616d7e59-8651-4661-836b-9c3403315b9a",
+  "title": "Possuo autoconhecimento para trabalhar em conformidade com minha saúde.",
+  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+  "description": "null"
+},
+{
+  "id": "a475c8d2-4caa-45e1-abc1-47a46a245314",
+  "title": "Possuo capacidade de interagir de forma amigável e gentil.",
+  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+  "description": "null"
+},
+{
+  "id": "8080c83e-9fd5-4061-9dfb-c87aae53c790",
+  "title": "Consigo adaptar meus comportamentos e ideias quando as situações assim exigirem.",
+  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+  "description": "null"
+},
+{
+  "id": "5e49d865-7119-47f4-b47a-8357aad6bd92",
+  "title": "Costumo aprender com os meus próprios erros.",
+  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+  "description": "null"
+},
+{
+  "id": "c64bfc3a-f876-4155-88d8-56b7e4d1606c",
+  "title": "Em situações de dificuldades, eu me esforço continuamente para atingir objetivos e / ou tarefas.",
+  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+  "description": "null"
+},
+{
+  "id": "3276bc31-48d1-429b-838c-6dd84d87aba9",
+  "title": "Me sinto impulsionado(a) a crescer profissionalmente.",
+  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+  "description": "null"
+},
+{
+  "id": "b266947a-3c88-4e22-8658-fba166bdd2c7",
+  "title": "Sou perseverante.",
+  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+  "description": "null"
+},
+{
+  "id": "54521e64-4d68-4108-bdc2-1173d124e1e0",
+  "title": "Possuo bom nível de autoestima, otimismo e confiança.",
+  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+  "description": "null"
+},
+{
+  "id": "477b37b4-581e-48a2-8dbc-087b18812f11",
+  "title": "Compreendo facilmente meu papel e impacto na empresa.",
+  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+  "description": "null"
+},
+{
+  "id": "101bfde5-eef0-4e12-a556-cf15f0811c7b",
+  "title": "Acredito ser capaz de fazer um bom trabalho.",
+  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+  "description": "null"
+},
+{
+  "id": "b41dca40-b8f8-4672-bdd2-143e0833be22",
+  "title": "Quando me sinto ofendido, transmite isso diretamente à pessoa correta.",
+  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+  "description": "null"
+},
+{
+  "id": "fd6b6ba8-b796-4b88-9ab7-d43d29462f29",
+  "title": "Quando uma situação não pode ser mudada, eu a aceito.",
+  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+  "description": "null"
+},
+{
+  "id": "814bf72d-2960-4c56-b44c-777614f68337",
+  "title": "Eu monitoro as minhas próprias necessidades de aprendizagem.",
+  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+  "description": "null"
+},
+{
+  "id": "9dac304d-dc29-437a-b81d-f7c9e0bc9aaa",
+  "title": "Ao ser exposto a um feedback, eu reconheço as minhas limitações pessoais.",
+  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+  "description": "null"
+},
+{
+  "id": "39d85be3-599d-433d-9c91-86e98905d478",
+  "title": "Busco novos conhecimentos e habilidades.",
+  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+  "description": "null"
+},
+{
+  "id": "41912758-e8e9-411f-9d21-f3d73ba35764",
+  "title": "Quando exposto a uma situação eu consigo mapear com facilidade os pontos fortes e fracos que a norteia.",
+  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ee",
+  "description": "null"
+},
+{
+  "id": "c1e51489-deab-4fd3-8c3e-7ebfacb8f8c9",
+  "title": "Se um sistema possui alguma falha eu me sinto preparado para modificar o funcionamento.",
+  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ee",
+  "description": "null"
+},
+{
+  "id": "c8928741-0f94-4c30-ba13-1e4357ab27fc",
+  "title": "Quando eu estou  com uma demanda alta e gerenciando vários projetos, utilizo do seu senso de priorização.",
+  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ee",
+  "description": "null"
+},
+{
+  "id": "b57d2ec9-0ff5-43e3-a83a-04440ca45fe5",
+  "title": "Acredito ser capaz de lidar com estressores sociais ao resolver conflitos.",
+  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ee",
+  "description": "null"
+},
+{
+  "id": "487015ef-df60-441d-bffe-ff81e42aab27",
+  "title": "Costumo solucionar situações utilizando de conhecimento multidisciplinar.",
+  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ee",
+  "description": "null"
+},
+{
+  "id": "2feb81d1-6a92-4a56-9f30-7e78b91a55ee",
+  "title": "Facilmente eu identifico um problema complexo.",
+  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ee",
+  "description": "null"
+},
+{
+  "id": "aa6cac24-3e60-4c35-ba06-9f35d67b417a",
+  "title": "Eu facilmente consigo mentalizar os elementos formadores individualmente e a composição geral de um projeto.",
+  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ee",
+  "description": "null"
+},
+{
+  "id": "cdcac530-641e-4fbe-bfa3-14a1d402c7aa",
+  "title": "Me sinto confortável ao receber sugestões, ideias diferentes e opiniões contrárias as minhas.",
+  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ee",
+  "description": "null"
+},
+{
+  "id": "dbd4986e-f88e-4e6b-8e9a-bc20ba377a86",
+  "title": "Encontro soluções criativas e inovadoras para problemas organizacionais que ocorrem de forma extraordinária.",
+  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ee",
+  "description": "null"
+},
+{
+  "id": "acbb30a0-e76b-4089-9ebb-689ff4a46902",
+  "title": "Me sinto confortável ao sair de minha zona de conforto.",
+  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ee",
+  "description": "null"
+},
+{
+  "id": "71b8c588-3903-4011-8e9d-81bd3c69ba9d",
+  "title": "Ao ser convocado para uma vaga com sistemas diversos, eu me sinto confortável para manuseá-los.",
+  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ee",
+  "description": "null"
+},
+{
+  "id": "ce37b64c-7580-4901-a8c1-0394f963bdd1",
+  "title": "Eu coloco em prática novas ideias.",
+  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ee",
+  "description": "null"
+},
+{
+  "id": "ea10e358-f144-406d-85c4-4acb6714c75b",
+  "title": "Quando exposto a situação que viola a integridade de algum colaborador, me sinto confortável para me posicionar.",
+  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ethd",
+  "description": "null"
+},
+{
+  "id": "a3322964-9698-431f-94a7-f6d677755616",
+  "title": "Facilmente eu consigo entender que as minhas ações na função laboral impactam na vida profissional de outros funcionários.",
+  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ethd",
+  "description": "null"
+},
+{
+  "id": "fa84aec7-0dbc-4937-b532-704c15f5bcfe",
+  "title": "Possuo compromisso, planejamento, organização com os objetivos de trabalho ou projetos.",
+  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ethd",
+  "description": "null"
+},
+{
+  "id": "ccfb1c99-b94f-4d03-afaf-721b5ebcaeed",
+  "title": "Mantenho os horários dos programas que planejo.",
+  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ethd",
+  "description": "null"
+},
+{
+  "id": "770e4aec-53b7-4eac-a3a3-b2451a0a610e",
+  "title": "Cumpro os prazos das tarefas que me são destinadas.",
+  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ethd",
+  "description": "null"
+},
+{
+  "id": "129cc359-9ea8-415d-94de-84cdcde62cf0",
+  "title": "Possuo compromisso com o trabalho.",
+  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ethd",
+  "description": "null"
+},
+{
+  "id": "9f559404-947e-4084-8038-0bc83913ecfd",
+  "title": "Ajo de forma responsável com os interesses sociais.",
+  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ethd",
+  "description": "null"
+}
+],
+  "categories":
+    [
+      {
+          "id": "a8bc9682-61e3-4c5f-8977-462120750329",
+          "title": "Pensamento Crítico ",
+          "description": "null",
+          "createdAt": "2022-07-14T17:43:24.696Z",
+          "updatedAt": "2022-05-05T00:28:50.096Z",
+          "questions": [
+              {
+                  "id": "9ac4da65-99a4-41b4-b2be-a68d00a08a5c",
+                  "title": "Quando exposto a uma situação eu consigo mapear com facilidade os pontos fortes e fracos que a norteia.",
+                  "categoriesId": "a8bc9682-61e3-4c5f-8977-462120750329",
+                  "description": "null"
+              },
+              {
+                  "id": "4f301a91-4ad5-4bce-8c09-8f7b9566f9fe",
+                  "title": "Se um sistema possui alguma falha eu me sinto preparado para modificar o funcionamento.",
+                  "categoriesId": "a8bc9682-61e3-4c5f-8977-462120750329",
+                  "description": "null"
+              },
+              {
+                  "id": "ea1cee36-f55b-4e24-9ef2-5301b65f009e",
+                  "title": "Quando eu estou  com uma demanda alta e gerenciando vários projetos, utilizo do seu senso de priorização.",
+                  "categoriesId": "a8bc9682-61e3-4c5f-8977-462120750329",
+                  "description": "null"
+              },
+              {
+                  "id": "d2b52a8a-8571-46fd-a798-e2e40ae588cd",
+                  "title": "Acredito ser capaz de lidar com estressores sociais ao resolver conflitos.",
+                  "categoriesId": "a8bc9682-61e3-4c5f-8977-462120750329",
+                  "description": "null"
+              },
+              {
+                  "id": "62725bad-b678-4097-b9d4-10363b73991f",
+                  "title": "Costumo solucionar situações utilizando de conhecimento multidisciplinar.",
+                  "categoriesId": "a8bc9682-61e3-4c5f-8977-462120750329",
+                  "description": "null"
+              },
+              {
+                  "id": "69a8b791-24eb-4aa2-aef8-83e425d21923",
+                  "title": "Facilmente eu identifico um problema complexo.",
+                  "categoriesId": "a8bc9682-61e3-4c5f-8977-462120750329",
+                  "description": "null"
+              },
+              {
+                  "id": "ccfd4a32-23fd-4d5c-aae5-63596fda59d2",
+                  "title": "Eu facilmente consigo mentalizar os elementos formadores individualmente e a composição geral de um projeto.",
+                  "categoriesId": "a8bc9682-61e3-4c5f-8977-462120750329",
+                  "description": "null"
+              },
+              {
+                  "id": "d93054a0-7fff-484c-8ad8-b9d046cd628c",
+                  "title": "Me sinto confortável ao receber sugestões, ideias diferentes e opiniões contrárias as minhas.",
+                  "categoriesId": "a8bc9682-61e3-4c5f-8977-462120750329",
+                  "description": "null"
+              }
+          ]
+      },
+      {
+          "id": "a0cb70a9-03b5-44a0-9192-a8be143cae41",
+          "title": "Comunicação",
+          "description": "null",
+          "createdAt": "2022-07-14T17:43:24.696Z",
+          "updatedAt": "2022-05-05T00:28:50.096Z",
+          "questions": [
+              {
+                  "id": "3c221bdf-7d0b-4fab-b2a9-a78e3552ebc0",
+                  "title": "Sei me comunicar em diferentes contextos (pessoal, social e profissional).",
+                  "categoriesId": "a0cb70a9-03b5-44a0-9192-a8be143cae41",
+                  "description": "null"
+              },
+              {
+                  "id": "2bb5d3ee-0434-48a9-9687-0abb59ee4e03",
+                  "title": "Sei demonstrar que uma informação é importante para mim.",
+                  "categoriesId": "a0cb70a9-03b5-44a0-9192-a8be143cae41",
+                  "description": "null"
+              },
+              {
+                  "id": "c711d1e1-a13f-467f-a49d-c3864bcb6472",
+                  "title": "Me sinto compreendido ao passar alguma informação.",
+                  "categoriesId": "a0cb70a9-03b5-44a0-9192-a8be143cae41",
+                  "description": "null"
+              },
+              {
+                  "id": "a77a2d1d-9e13-4fbc-83a6-3342868e9929",
+                  "title": "Expresso meus direitos, opiniões, ideias, necessidades e sentimentos de forma consciente, clara, honesta e sincera, sem prejudicar os outros.",
+                  "categoriesId": "a0cb70a9-03b5-44a0-9192-a8be143cae41",
+                  "description": "null"
+              },
+              {
+                  "id": "c570114d-7607-4728-a153-8c82acdafac6",
+                  "title": "Me sinto confortável ao falar em público.",
+                  "categoriesId": "a0cb70a9-03b5-44a0-9192-a8be143cae41",
+                  "description": "null"
+              },
+              {
+                  "id": "815ae02f-8fbc-4d84-9647-d2ac060bb551",
+                  "title": "Sei me comunicar de forma escrita.",
+                  "categoriesId": "a0cb70a9-03b5-44a0-9192-a8be143cae41",
+                  "description": "null"
+              },
+              {
+                  "id": "2066da09-c84a-4c00-87db-54cf66f63f21",
+                  "title": "Me sinto capaz para trabalhar com diversos e diferentes meios de comunicação, aplicativos de mensagens, e-mails e mídias sociais.",
+                  "categoriesId": "a0cb70a9-03b5-44a0-9192-a8be143cae41",
+                  "description": "null"
+              },
+              {
+                  "id": "73970ee1-7394-41bb-b571-0060b9462331",
+                  "title": "Possuo alto nível de ortografia e conhecimento da linguagem culta.",
+                  "categoriesId": "a0cb70a9-03b5-44a0-9192-a8be143cae41",
+                  "description": "null"
+              },
+              {
+                  "id": "caeae62d-7d4e-4581-a2e2-8280d8d709c2",
+                  "title": "Sou capaz de, ao escutar um colega, transmitir exatamente o que ele quis expressar.",
+                  "categoriesId": "a0cb70a9-03b5-44a0-9192-a8be143cae41",
+                  "description": "null"
+              },
+              {
+                  "id": "3ee86e09-195a-46bc-9d99-6b33dfe666bb",
+                  "title": "Possuo facilidade para compreender as intenções de alguém que está falando comigo.",
+                  "categoriesId": "a0cb70a9-03b5-44a0-9192-a8be143cae41",
+                  "description": "null"
+              },
+              {
+                  "id": "c3d61181-17e7-4155-919a-4ec659f1d378",
+                  "title": "Eu espero o interlocutor terminar de falar para posicionar minha fala.",
+                  "categoriesId": "a0cb70a9-03b5-44a0-9192-a8be143cae41",
+                  "description": "null"
+              },
+              {
+                  "id": "d1187610-76e3-482c-bc01-145ccd95f76d",
+                  "title": "Ao ler um contrato de trabalho ou outros documentos, eu entendo as cláusulas jurídicas.",
+                  "categoriesId": "a0cb70a9-03b5-44a0-9192-a8be143cae41",
+                  "description": "null"
+              },
+              {
+                  "id": "8c4a10db-d32e-475f-9f9a-19014a86eaa6",
+                  "title": "Possuo capacidade de interpretar textos, utilizando os dados neles contidos.",
+                  "categoriesId": "a0cb70a9-03b5-44a0-9192-a8be143cae41",
+                  "description": "null"
+              },
+              {
+                  "id": "3e1c1cd6-d37b-4c08-8bbd-f61ea305309c",
+                  "title": "Possuo capacidade em ler, falar e escrever um outro idioma além do da minha origem.",
+                  "categoriesId": "a0cb70a9-03b5-44a0-9192-a8be143cae41",
+                  "description": "null"
+              }
+          ]
+      },
+      {
+          "id": "c58defa7-f791-46db-860b-a0ab7f14aee5",
+          "title": "Trabalho em Equipe ",
+          "description": "null",
+          "createdAt": "2022-07-14T17:43:24.696Z",
+          "updatedAt": "2022-05-05T00:28:50.096Z",
+          "questions": [
+              {
+                  "id": "e643ba16-7e30-40b5-b512-4359a6e2e340",
+                  "title": "Em meio a cenários de incerteza, eu me sinto confortável para tomar decisões.",
+                  "categoriesId": "c58defa7-f791-46db-860b-a0ab7f14aee5",
+                  "description": "null"
+              },
+              {
+                  "id": "1e9d655a-597a-4839-bb00-699db8b04e64",
+                  "title": "Em um grupo de colegas, minhas opiniões direcionam o rumo da conversa.",
+                  "categoriesId": "c58defa7-f791-46db-860b-a0ab7f14aee5",
+                  "description": "null"
+              },
+              {
+                  "id": "df1a6d98-3424-4540-87fe-9cbaec735b10",
+                  "title": "Consigo convencer as pessoas a me apoiarem em uma opinião.",
+                  "categoriesId": "c58defa7-f791-46db-860b-a0ab7f14aee5",
+                  "description": "null"
+              },
+              {
+                  "id": "58c6fac3-6844-428f-8740-b7f14c367392",
+                  "title": "Eu estimulo meus colegas a serem autônomos e pró-ativos.",
+                  "categoriesId": "c58defa7-f791-46db-860b-a0ab7f14aee5",
+                  "description": "null"
+              },
+              {
+                  "id": "fe711c62-100c-4d6c-9de0-c390ba6b4b7f",
+                  "title": "Eu costumo reconhecer as competências de meus colegas e informá-los.",
+                  "categoriesId": "c58defa7-f791-46db-860b-a0ab7f14aee5",
+                  "description": "null"
+              },
+              {
+                  "id": "9e9a42d2-22c4-482e-a15c-5aa2e84f5e07",
+                  "title": "Eu me entusiasmo a contribuir com objetivos comuns.",
+                  "categoriesId": "c58defa7-f791-46db-860b-a0ab7f14aee5",
+                  "description": "null"
+              },
+              {
+                  "id": "c5f2539f-dccd-472d-b392-aff6589eaad4",
+                  "title": "Faço parcerias profissionais facilmente.",
+                  "categoriesId": "c58defa7-f791-46db-860b-a0ab7f14aee5",
+                  "description": "null"
+              },
+              {
+                  "id": "05c67964-1f8f-4fdc-83e4-82894fe34fdc",
+                  "title": "Eu invisto em gerar conexões adequadas com clientes e colegas.",
+                  "categoriesId": "c58defa7-f791-46db-860b-a0ab7f14aee5",
+                  "description": "null"
+              },
+              {
+                  "id": "2d1a941a-88d0-4b35-9c13-206ebbbc2d50",
+                  "title": "Aceito coerentemente as obrigações compartilhadas com outras pessoas.",
+                  "categoriesId": "c58defa7-f791-46db-860b-a0ab7f14aee5",
+                  "description": "null"
+              },
+              {
+                  "id": "c83ce361-3cf4-4e85-97f5-2ad8360ff57b",
+                  "title": "Me sinto confortável ao trabalhar com equipes de outro setores.",
+                  "categoriesId": "c58defa7-f791-46db-860b-a0ab7f14aee5",
+                  "description": "null"
+              },
+              {
+                  "id": "b358b946-4562-4790-a338-799c61e0b70b",
+                  "title": "Aplico com facilidade minhas competências ao ser exposto a novos contextos.",
+                  "categoriesId": "c58defa7-f791-46db-860b-a0ab7f14aee5",
+                  "description": "null"
+              },
+              {
+                  "id": "67fe2bca-9f14-4f50-adbb-dc22aa4cd94a",
+                  "title": "Prefiro trabalhar em equipe em relação a trabalhar individualmente.",
+                  "categoriesId": "c58defa7-f791-46db-860b-a0ab7f14aee5",
+                  "description": "null"
+              },
+              {
+                  "id": "4a824d16-d471-4999-b280-fa10d213e703",
+                  "title": "Possuo facilidade em trabalhar com grupos de pessoas que diferem da minha cultura, raça, idade, gênero, religião, estilo de vida e pontos de vista.",
+                  "categoriesId": "c58defa7-f791-46db-860b-a0ab7f14aee5",
+                  "description": "null"
+              }
+          ]
+      },
+      {
+          "id": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+          "title": "Inteligencia Emocional",
+          "description": "null",
+          "createdAt": "2022-07-14T17:43:24.696Z",
+          "updatedAt": "2022-05-05T00:28:50.096Z",
+          "questions": [
+              {
+                  "id": "493dfd0b-b41d-47e8-966d-c9899a355525",
+                  "title": "Possuo facilidade em demonstrar empatia por um colega de trabalho.",
+                  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+                  "description": "null"
+              },
+              {
+                  "id": "8f085fb9-9ca3-4bac-b693-24f8aec517ed",
+                  "title": "Consigo manter as aparências profissionais em vez de priorizar minhas crenças opniões e valores.",
+                  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+                  "description": "null"
+              },
+              {
+                  "id": "42af0c8d-7ff1-4eed-b3c4-6e7ef8935e68",
+                  "title": "Quando há uma mudança de ambiente, isso me afeta.",
+                  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+                  "description": "null"
+              },
+              {
+                  "id": "616d7e59-8651-4661-836b-9c3403315b9a",
+                  "title": "Possuo autoconhecimento para trabalhar em conformidade com minha saúde.",
+                  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+                  "description": "null"
+              },
+              {
+                  "id": "a475c8d2-4caa-45e1-abc1-47a46a245314",
+                  "title": "Possuo capacidade de interagir de forma amigável e gentil.",
+                  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+                  "description": "null"
+              },
+              {
+                  "id": "8080c83e-9fd5-4061-9dfb-c87aae53c790",
+                  "title": "Consigo adaptar meus comportamentos e ideias quando as situações assim exigirem.",
+                  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+                  "description": "null"
+              },
+              {
+                  "id": "5e49d865-7119-47f4-b47a-8357aad6bd92",
+                  "title": "Costumo aprender com os meus próprios erros.",
+                  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+                  "description": "null"
+              },
+              {
+                  "id": "c64bfc3a-f876-4155-88d8-56b7e4d1606c",
+                  "title": "Em situações de dificuldades, eu me esforço continuamente para atingir objetivos e / ou tarefas.",
+                  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+                  "description": "null"
+              },
+              {
+                  "id": "3276bc31-48d1-429b-838c-6dd84d87aba9",
+                  "title": "Me sinto impulsionado(a) a crescer profissionalmente.",
+                  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+                  "description": "null"
+              },
+              {
+                  "id": "b266947a-3c88-4e22-8658-fba166bdd2c7",
+                  "title": "Sou perseverante.",
+                  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+                  "description": "null"
+              },
+              {
+                  "id": "54521e64-4d68-4108-bdc2-1173d124e1e0",
+                  "title": "Possuo bom nível de autoestima, otimismo e confiança.",
+                  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+                  "description": "null"
+              },
+              {
+                  "id": "477b37b4-581e-48a2-8dbc-087b18812f11",
+                  "title": "Compreendo facilmente meu papel e impacto na empresa.",
+                  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+                  "description": "null"
+              },
+              {
+                  "id": "101bfde5-eef0-4e12-a556-cf15f0811c7b",
+                  "title": "Acredito ser capaz de fazer um bom trabalho.",
+                  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+                  "description": "null"
+              },
+              {
+                  "id": "b41dca40-b8f8-4672-bdd2-143e0833be22",
+                  "title": "Quando me sinto ofendido, transmite isso diretamente à pessoa correta.",
+                  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+                  "description": "null"
+              },
+              {
+                  "id": "fd6b6ba8-b796-4b88-9ab7-d43d29462f29",
+                  "title": "Quando uma situação não pode ser mudada, eu a aceito.",
+                  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+                  "description": "null"
+              },
+              {
+                  "id": "814bf72d-2960-4c56-b44c-777614f68337",
+                  "title": "Eu monitoro as minhas próprias necessidades de aprendizagem.",
+                  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+                  "description": "null"
+              },
+              {
+                  "id": "9dac304d-dc29-437a-b81d-f7c9e0bc9aaa",
+                  "title": "Ao ser exposto a um feedback, eu reconheço as minhas limitações pessoais.",
+                  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+                  "description": "null"
+              },
+              {
+                  "id": "39d85be3-599d-433d-9c91-86e98905d478",
+                  "title": "Busco novos conhecimentos e habilidades.",
+                  "categoriesId": "7d5d936d-cd73-45cd-abbf-45e199ea033b",
+                  "description": "null"
+              }
+          ]
+      },
+      {
+          "id": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ee",
+          "title": "Pensamento Criativo",
+          "description": "null",
+          "createdAt": "2022-07-14T17:43:24.696Z",
+          "updatedAt": "2022-05-05T00:28:50.096Z",
+          "questions": [
+              {
+                  "id": "41912758-e8e9-411f-9d21-f3d73ba35764",
+                  "title": "Quando exposto a uma situação eu consigo mapear com facilidade os pontos fortes e fracos que a norteia.",
+                  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ee",
+                  "description": "null"
+              },
+              {
+                  "id": "c1e51489-deab-4fd3-8c3e-7ebfacb8f8c9",
+                  "title": "Se um sistema possui alguma falha eu me sinto preparado para modificar o funcionamento.",
+                  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ee",
+                  "description": "null"
+              },
+              {
+                  "id": "c8928741-0f94-4c30-ba13-1e4357ab27fc",
+                  "title": "Quando eu estou  com uma demanda alta e gerenciando vários projetos, utilizo do seu senso de priorização.",
+                  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ee",
+                  "description": "null"
+              },
+              {
+                  "id": "b57d2ec9-0ff5-43e3-a83a-04440ca45fe5",
+                  "title": "Acredito ser capaz de lidar com estressores sociais ao resolver conflitos.",
+                  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ee",
+                  "description": "null"
+              },
+              {
+                  "id": "487015ef-df60-441d-bffe-ff81e42aab27",
+                  "title": "Costumo solucionar situações utilizando de conhecimento multidisciplinar.",
+                  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ee",
+                  "description": "null"
+              },
+              {
+                  "id": "2feb81d1-6a92-4a56-9f30-7e78b91a55ee",
+                  "title": "Facilmente eu identifico um problema complexo.",
+                  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ee",
+                  "description": "null"
+              },
+              {
+                  "id": "aa6cac24-3e60-4c35-ba06-9f35d67b417a",
+                  "title": "Eu facilmente consigo mentalizar os elementos formadores individualmente e a composição geral de um projeto.",
+                  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ee",
+                  "description": "null"
+              },
+              {
+                  "id": "cdcac530-641e-4fbe-bfa3-14a1d402c7aa",
+                  "title": "Me sinto confortável ao receber sugestões, ideias diferentes e opiniões contrárias as minhas.",
+                  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ee",
+                  "description": "null"
+              },
+              {
+                  "id": "dbd4986e-f88e-4e6b-8e9a-bc20ba377a86",
+                  "title": "Encontro soluções criativas e inovadoras para problemas organizacionais que ocorrem de forma extraordinária.",
+                  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ee",
+                  "description": "null"
+              },
+              {
+                  "id": "acbb30a0-e76b-4089-9ebb-689ff4a46902",
+                  "title": "Me sinto confortável ao sair de minha zona de conforto.",
+                  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ee",
+                  "description": "null"
+              },
+              {
+                  "id": "71b8c588-3903-4011-8e9d-81bd3c69ba9d",
+                  "title": "Ao ser convocado para uma vaga com sistemas diversos, eu me sinto confortável para manuseá-los.",
+                  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ee",
+                  "description": "null"
+              },
+              {
+                  "id": "ce37b64c-7580-4901-a8c1-0394f963bdd1",
+                  "title": "Eu coloco em prática novas ideias.",
+                  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ee",
+                  "description": "null"
+              }
+          ]
+      },
+      {
+          "id": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ethd",
+          "title": "Perspectiva Ética",
+          "description": "null",
+          "createdAt": "2022-07-14T17:43:24.696Z",
+          "updatedAt": "2022-05-05T00:28:50.096Z",
+          "questions": [
+              {
+                  "id": "ea10e358-f144-406d-85c4-4acb6714c75b",
+                  "title": "Quando exposto a situação que viola a integridade de algum colaborador, me sinto confortável para me posicionar.",
+                  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ethd",
+                  "description": "null"
+              },
+              {
+                  "id": "a3322964-9698-431f-94a7-f6d677755616",
+                  "title": "Facilmente eu consigo entender que as minhas ações na função laboral impactam na vida profissional de outros funcionários.",
+                  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ethd",
+                  "description": "null"
+              },
+              {
+                  "id": "fa84aec7-0dbc-4937-b532-704c15f5bcfe",
+                  "title": "Possuo compromisso, planejamento, organização com os objetivos de trabalho ou projetos.",
+                  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ethd",
+                  "description": "null"
+              },
+              {
+                  "id": "ccfb1c99-b94f-4d03-afaf-721b5ebcaeed",
+                  "title": "Mantenho os horários dos programas que planejo.",
+                  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ethd",
+                  "description": "null"
+              },
+              {
+                  "id": "770e4aec-53b7-4eac-a3a3-b2451a0a610e",
+                  "title": "Cumpro os prazos das tarefas que me são destinadas.",
+                  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ethd",
+                  "description": "null"
+              },
+              {
+                  "id": "129cc359-9ea8-415d-94de-84cdcde62cf0",
+                  "title": "Possuo compromisso com o trabalho.",
+                  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ethd",
+                  "description": "null"
+              },
+              {
+                  "id": "9f559404-947e-4084-8038-0bc83913ecfd",
+                  "title": "Ajo de forma responsável com os interesses sociais.",
+                  "categoriesId": "af2ea2ff-d005-436d-b7c7-bfbbde02b0ethd",
+                  "description": "null"
+              }
+          ]
       }
-    },
-    {
-      "id": "44b2",
-      "name": "Question 2",
-      "description": null,
-      "createdAt": "2022-03-29T21:41:15.059Z",
-      "updatedAt": "2022-03-29T21:41:15.059Z",
-      "categoryId": "4eeaf84b-590a-4d88-8031-4aa6fdcf26ed",
-      "category": {
-        "id": "4eeaf84b-590a-4d88-8031-4aa6fdcf26ed",
-        "name": "Category 1",
-        "description": null,
-        "createdAt": "2022-03-29T21:39:51.596Z",
-        "updatedAt": "2022-03-29T21:39:51.596Z",
-        "rate": 0
-      }
-    },
-    {
-      "id": "44b3",
-      "name": "Question 3",
-      "description": null,
-      "createdAt": "2022-03-29T21:41:15.059Z",
-      "updatedAt": "2022-03-29T21:41:15.059Z",
-      "categoryId": "4eeaf84b-590a-4d88-8031-4aa6fdcf26ed",
-      "category": {
-        "id": "4eeaf84b-590a-4d88-8031-4aa6fdcf26ed",
-        "name": "Category 1",
-        "description": null,
-        "createdAt": "2022-03-29T21:39:51.596Z",
-        "updatedAt": "2022-03-29T21:39:51.596Z",
-        "rate": 0
-      }
-    },
-    {
-      "id": "44b4",
-      "name": "Question 4",
-      "description": null,
-      "createdAt": "2022-03-29T21:41:15.060Z",
-      "updatedAt": "2022-03-29T21:41:15.060Z",
-      "categoryId": "4eeaf84b-590a-4d88-8031-4aa6fdcf26ed",
-      "category": {
-        "id": "4eeaf84b-590a-4d88-8031-4aa6fdcf26ed",
-        "name": "Category 1",
-        "description": null,
-        "createdAt": "2022-03-29T21:39:51.596Z",
-        "updatedAt": "2022-03-29T21:39:51.596Z",
-        "rate": 0
-      }
-    },
-    {
-      "id": "44b5",
-      "name": "Question 5",
-      "description": null,
-      "createdAt": "2022-03-29T21:41:15.060Z",
-      "updatedAt": "2022-03-29T21:41:15.060Z",
-      "categoryId": "4eeaf84b-590a-4d88-8031-4aa6fdcf26ed",
-      "category": {
-        "id": "4eeaf84b-590a-4d88-8031-4aa6fdcf26ed",
-        "name": "Category 1",
-        "description": null,
-        "createdAt": "2022-03-29T21:39:51.596Z",
-        "updatedAt": "2022-03-29T21:39:51.596Z",
-        "rate": 0
-      }
-    },
-    {
-      "id": "093a1",
-      "name": "Question 1",
-      "description": null,
-      "createdAt": "2022-03-29T21:40:11.886Z",
-      "updatedAt": "2022-03-29T21:40:11.886Z",
-      "categoryId": "4eeaf84b-590a-4d88-8031-asht548h4hs5",
-      "category": {
-        "id": "4eeaf84b-590a-4d88-8031-asht548h4hs5",
-        "name": "Category 2",
-        "description": null,
-        "createdAt": "2022-03-29T21:39:51.596Z",
-        "updatedAt": "2022-03-29T21:39:51.596Z",
-        "rate": 0
-      }
-    },
-    {
-      "id": "093a2",
-      "name": "Question 2",
-      "description": null,
-      "createdAt": "2022-03-29T21:41:15.059Z",
-      "updatedAt": "2022-03-29T21:41:15.059Z",
-      "categoryId": "4eeaf84b-590a-4d88-8031-asht548h4hs5",
-      "category": {
-        "id": "4eeaf84b-590a-4d88-8031-asht548h4hs5",
-        "name": "Category 2",
-        "description": null,
-        "createdAt": "2022-03-29T21:39:51.596Z",
-        "updatedAt": "2022-03-29T21:39:51.596Z",
-        "rate": 0
-      }
-    },
-    {
-      "id": "093a23",
-      "name": "Question 3",
-      "description": null,
-      "createdAt": "2022-03-29T21:41:15.059Z",
-      "updatedAt": "2022-03-29T21:41:15.059Z",
-      "categoryId": "4eeaf84b-590a-4d88-8031-asht548h4hs5",
-      "category": {
-        "id": "4eeaf84b-590a-4d88-8031-asht548h4hs5",
-        "name": "Category 2",
-        "description": null,
-        "createdAt": "2022-03-29T21:39:51.596Z",
-        "updatedAt": "2022-03-29T21:39:51.596Z",
-        "rate": 0
-      }
-    },
-    {
-      "id": "093a4",
-      "name": "Question 4",
-      "description": null,
-      "createdAt": "2022-03-29T21:41:15.060Z",
-      "updatedAt": "2022-03-29T21:41:15.060Z",
-      "categoryId": "4eeaf84b-590a-4d88-8031-asht548h4hs5",
-      "category": {
-        "id": "4eeaf84b-590a-4d88-8031-asht548h4hs5",
-        "name": "Category 2",
-        "description": null,
-        "createdAt": "2022-03-29T21:39:51.596Z",
-        "updatedAt": "2022-03-29T21:39:51.596Z",
-        "rate": 0
-      }
-    }
-  ],
-  "categories": [
-    {
-      "id": "4eeaf84b-590a-4d88-8031-4aa6fdcf26ed",
-      "name": "Category 1",
-      "description": null,
-      "createdAt": "2022-03-29T21:39:51.596Z",
-      "updatedAt": "2022-03-29T21:39:51.596Z",
-      "rate": 5,
-      "questions": [
-        {
-          "id": "900810c5-093a-44b1-850d-3e78685a687f",
-          "name": "Question 1",
-          "description": null,
-          "createdAt": "2022-03-29T21:40:11.886Z",
-          "updatedAt": "2022-03-29T21:40:11.886Z",
-          "categoryId": "4eeaf84b-590a-4d88-8031-4aa6fdcf26ed"
-        },
-        {
-          "id": "30fedcb8-2beb-427e-ae05-c1a71a5ddbbc",
-          "name": "Question 2",
-          "description": null,
-          "createdAt": "2022-03-29T21:41:15.059Z",
-          "updatedAt": "2022-03-29T21:41:15.059Z",
-          "categoryId": "4eeaf84b-590a-4d88-8031-4aa6fdcf26ed"
-        },
-        {
-          "id": "0aa88e9e-591f-4f88-a2d1-f6ad7b2b061b",
-          "name": "Question 3",
-          "description": null,
-          "createdAt": "2022-03-29T21:41:15.059Z",
-          "updatedAt": "2022-03-29T21:41:15.059Z",
-          "categoryId": "4eeaf84b-590a-4d88-8031-4aa6fdcf26ed"
-        },
-        {
-          "id": "1acfcc7c-ebdb-41d6-8da4-5b8a636bd81c",
-          "name": "Question 4",
-          "description": null,
-          "createdAt": "2022-03-29T21:41:15.060Z",
-          "updatedAt": "2022-03-29T21:41:15.060Z",
-          "categoryId": "4eeaf84b-590a-4d88-8031-4aa6fdcf26ed"
-        },
-        {
-          "id": "92d75533-6f32-446f-a786-a7d9a29690b7",
-          "name": "Question 5",
-          "description": null,
-          "createdAt": "2022-03-29T21:41:15.060Z",
-          "updatedAt": "2022-03-29T21:41:15.060Z",
-          "categoryId": "4eeaf84b-590a-4d88-8031-4aa6fdcf26ed"
-        }
-      ]
-    },
-    {
-      "id": "4eeaf84b-590a-4d88-8031-4aa6fdcf26ed",
-      "name": "Category 2",
-      "description": null,
-      "createdAt": "2022-03-29T21:39:51.596Z",
-      "updatedAt": "2022-03-29T21:39:51.596Z",
-      "rate": 5,
-      "questions": [
-        {
-          "id": "900810c5-093a-44b1-850d-3e78685a687f",
-          "name": "Question 1",
-          "description": null,
-          "createdAt": "2022-03-29T21:40:11.886Z",
-          "updatedAt": "2022-03-29T21:40:11.886Z",
-          "categoryId": "4eeaf84b-590a-4d88-8031-4aa6fdcf26ed"
-        },
-        {
-          "id": "30fedcb8-2beb-427e-ae05-c1a71a5ddbbc",
-          "name": "Question 2",
-          "description": null,
-          "createdAt": "2022-03-29T21:41:15.059Z",
-          "updatedAt": "2022-03-29T21:41:15.059Z",
-          "categoryId": "4eeaf84b-590a-4d88-8031-4aa6fdcf26ed"
-        },
-        {
-          "id": "0aa88e9e-591f-4f88-a2d1-f6ad7b2b061b",
-          "name": "Question 3",
-          "description": null,
-          "createdAt": "2022-03-29T21:41:15.059Z",
-          "updatedAt": "2022-03-29T21:41:15.059Z",
-          "categoryId": "4eeaf84b-590a-4d88-8031-4aa6fdcf26ed"
-        },
-        {
-          "id": "1acfcc7c-ebdb-41d6-8da4-5b8a636bd81c",
-          "name": "Question 4",
-          "description": null,
-          "createdAt": "2022-03-29T21:41:15.060Z",
-          "updatedAt": "2022-03-29T21:41:15.060Z",
-          "categoryId": "4eeaf84b-590a-4d88-8031-4aa6fdcf26ed"
-        },
-        {
-          "id": "92d75533-6f32-446f-a786-a7d9a29690b7",
-          "name": "Question 5",
-          "description": null,
-          "createdAt": "2022-03-29T21:41:15.060Z",
-          "updatedAt": "2022-03-29T21:41:15.060Z",
-          "categoryId": "4eeaf84b-590a-4d88-8031-4aa6fdcf26ed"
-        }
-      ]
-    },
-    {
-      "id": "4eeaf84b-590a-4d88-8031-4aa6fdcf26ed",
-      "name": "Category 3",
-      "description": null,
-      "createdAt": "2022-03-29T21:39:51.596Z",
-      "updatedAt": "2022-03-29T21:39:51.596Z",
-      "rate": 5,
-      "questions": [
-        {
-          "id": "900810c5-093a-44b1-850d-3e78685a687f",
-          "name": "Question 1",
-          "description": null,
-          "createdAt": "2022-03-29T21:40:11.886Z",
-          "updatedAt": "2022-03-29T21:40:11.886Z",
-          "categoryId": "4eeaf84b-590a-4d88-8031-4aa6fdcf26ed"
-        },
-        {
-          "id": "30fedcb8-2beb-427e-ae05-c1a71a5ddbbc",
-          "name": "Question 2",
-          "description": null,
-          "createdAt": "2022-03-29T21:41:15.059Z",
-          "updatedAt": "2022-03-29T21:41:15.059Z",
-          "categoryId": "4eeaf84b-590a-4d88-8031-4aa6fdcf26ed"
-        },
-        {
-          "id": "0aa88e9e-591f-4f88-a2d1-f6ad7b2b061b",
-          "name": "Question 3",
-          "description": null,
-          "createdAt": "2022-03-29T21:41:15.059Z",
-          "updatedAt": "2022-03-29T21:41:15.059Z",
-          "categoryId": "4eeaf84b-590a-4d88-8031-4aa6fdcf26ed"
-        }
-      ]
-    }
   ],
   "survey-results": [
     {
